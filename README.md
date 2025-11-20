@@ -1,16 +1,23 @@
-# React + Vite
+# JS Fullstack Lesson 38
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Невеликий демо-проєкт на React + Vite (TypeScript), який демонструє створення власного компонента `Button` з пропсами `text`, `type` і `onClick`. У застосунку показано кілька способів повторного використання кнопки.
 
-Currently, two official plugins are available:
+## Встановлення та запуск
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+# інсталяція залежностей
+npm install
 
-## React Compiler
+# запуск дев-сервера
+npm run dev
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# production-збірка
+npm run build
 
-## Expanding the ESLint configuration
+# попередній перегляд зібраної версії
+npm run preview
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Демо
+
+Проєкт розгорнуто на Vercel: https://js-fullstack-lesson38.vercel.app/
